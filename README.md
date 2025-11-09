@@ -11,29 +11,29 @@ Download Anaconda from the official website:
 https://www.anaconda.com/products/distribution<br>
 Choose the version suitable for your operating system<br>
 
-Add Conda to Environment Variables (Windows)
-Press Windows + S → Search for “Environment Variables” → Click Edit the system environment variables.
-In the System Properties window, click Environment Variables.
-Under System Variables, find and select Path, then click Edit.
-Click New, and add the paths
-Click OK on all dialogs to save.
-Restart 
+Add Conda to Environment Variables (Windows)<br>
+Press Windows + S → Search for “Environment Variables” → Click Edit the system environment variables.<br>
+In the System Properties window, click Environment Variables.<br>
+Under System Variables, find and select Path, then click Edit.<br>
+Click New, and add the path.<br>
+Click OK on all dialogs to save.<br>
+Restart <br>
 
-**#Commands**
-Create a new Conda virtual environment with Python 3.10
-conda create -n venv python=3.10 -y
+**#Commands**<br>
+Create a new Conda virtual environment with Python 3.10<br>
+conda create -n venv python=3.10 -y<br>
 
-Activate the virtual environment
-conda activate venv
+Activate the virtual environment<br>
+conda activate venv<br>
 
-Install Streamlit
-pip install streamlit
+Install Streamlit<br>
+pip install streamlit<br>
 
-Install other required libraries
-pip install -r requirements.txt
+Install other required libraries<br>
+pip install -r requirements.txt<br>
 
-Run the Streamlit app
-streamlit run app.py
+Run the Streamlit app<br>
+streamlit run app.py<br>
 
 **#RESULT**
 <img width="972" height="880" alt="Screenshot 2025-01-19 154805" src="https://github.com/user-attachments/assets/0167dba2-fe67-4e97-ad75-ac80136dd3f9" />
